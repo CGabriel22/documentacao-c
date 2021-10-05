@@ -350,4 +350,5 @@ do{
 Perceba que mesmo desde o inicio n sendo maior que 5, o do-while vai ser executado uma vez incrementando o n, assim n será 7 no final.
 
 ## Funções <a name="funcoes"></a>
-
+Códigos em C podem ser maçantes de se escrever, afim de reaproveitar trechos de código e torna-lo mais organizado construimos as funções.
+Em sumo, funções são pedaços de código que podem ser chamados inúmeras vezes afim de efetuar alguma operação uma vez que especificamos os parametros de entrada e saída, dessa forma conseguimos modularizar o problema pois agora podemos dividir o código em várias partes. 
