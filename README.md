@@ -307,6 +307,47 @@ switch (number) {
 ```
 
 ## Laços de repetiçao <a name="loops"></a>
+Os laços de repetição ou loops são estruturas que executam várias vezes a mesma série de instruções até que uma condição não seja mais realizada.
+
+#### for
+```c
+for (contador; condição; modificação do contador) {
+ lista de instruções;
+}
+//exemplo:
+for (i=1; i<6; i++) {
+ printf("%d", i);
+}
+```
+
+#### While
+```c
+while (condição realizada) {
+   lista de instruções;
+}
+
+// Exemplo:
+
+int n = 0;
+while (n < 5) {
+	n++;
+}
+```
+#### Do-while
+Diferente do while, o do-while executa as instruções pelo menos 1 vez antes de testar qualquer condição.
+```c
+do{
+	//bloco de comandos
+} while (/*expressao*/);
+
+// Exemplo:
+
+int n = 6;
+do{
+	n++;
+} while (n < 5);
+```
+Perceba que mesmo desde o inicio n sendo maior que 5, o do-while vai ser executado uma vez incrementando o n, assim n será 7 no final.
 
 ## Funções <a name="funcoes"></a>
 
