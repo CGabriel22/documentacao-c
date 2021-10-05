@@ -352,3 +352,5 @@ Perceba que mesmo desde o inicio n sendo maior que 5, o do-while vai ser executa
 ## Funções <a name="funcoes"></a>
 Códigos em C podem ser maçantes de se escrever, afim de reaproveitar trechos de código e torna-lo mais organizado construimos as funções.
 Em sumo, funções são pedaços de código que podem ser chamados inúmeras vezes afim de efetuar alguma operação uma vez que especificamos os parametros de entrada e saída, dessa forma conseguimos modularizar o problema pois agora podemos dividir o código em várias partes. 
+
+#### Declarando uma função
