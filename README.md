@@ -11,7 +11,7 @@ Uma documentação prática e simples feita de universitários para universitár
 4. [Tipos de dados](#tipos-dados)
 5. [Especificadores mais comuns](#especificadores-comuns)
 6. [Float vs Double](#float-vs-double)
-7. [Limitando casas decimais em c](#limitando-decimais) - Em falta
+7. [Limitando casas decimais em c](#limitando-decimais)
 8. [Vetores ou arrays](#vetores) - Em falta
 9. [Vetor de caracteres](#vetor-de-caracteres)
 10. [Operadores](#operadores)
@@ -127,6 +127,19 @@ char name[] = "john smith"
 char name[20] = "john smith" // ao passar 20 entre os colchetes, definimos que
 														// a string terá no máximo 20 caracteres.
 ```
+
+## Limitando casas decimais em c <a name="limitando-decimais"></a>
+Muitas vezes o resultado de um calculo pode ser um valor com muitas casas decimais, o que pode ser estranho para nós. Portanto nós podemos preferir
+apresentar um valor com um número limitado de casas decimais.
+
+Para limitar as casas decimais de um valor float para fins de saída, podemos utilizar "%.2f":
+
+```c
+float number = 3.7855342022;
+printf("%.2f", number);
+// O resultado será 3.78
+```
+troque o numero depois da porcentagem como quiser para diminuir ou aumentar o limite, "%.1f", "%.3f".
 
 ## Operadores <a name="operadores"></a>
 Um operador é um símbolo que indica a realização de uma operação sobre uma ou mais variáveis ou valores.
