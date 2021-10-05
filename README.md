@@ -255,6 +255,56 @@ o fgets é usado para se ler uma string num arquivo. A função recebe 3 argumen
 no exemplo acima, passamos como referencia de arquivo o **stdin** que significa standard input, ou seja, pegamos a referência da entrada padrão, assim como fazemos no scanf.
 
 ## Condicionais <a name="condicionais"></a>
+Condicionais são instruções para testar se uma condição é verdadeira ou não.
+
+#### if
+```c
+if (condição realizada) {
+	lista de instruções;
+}
+// ou
+if ((condição1)&&(condição2)) {
+	lista de instruções;
+}
+// Exemplo:
+if (10 > 5) {
+	printf("10 é maior que 5");
+}
+```
+#### if ... else
+```c
+if (condição realizada) {
+   lista de instruções
+}
+else {
+  outra série de instruções
+}
+```
+#### Operadores ternários
+```c
+(condição) ? instrução se verdadeira: instrução se falsa
+
+// Exemplo
+
+( 10 > 5 ) ? printf("10 é maior que 5") : printf("10 não é maior que 5");
+```
+obs: A condição sempre deve ficar entre parênteses. Esse tipo de operação retorna um valor.
+
+#### SWITCH
+A Instrução switch efetua vários testes de valores sobre o conteúdo de uma mesma variável.
+```c
+int number = 10 - 5;
+switch (number) {
+	case 5:
+		printf("10 - 5 é 5");
+		break;
+	case 4:
+		printf("10 - 5 é 4");
+		break;
+	default:
+		printf("Isso sempre vai acontecer");
+}
+```
 
 ## Laços de repetiçao <a name="loops"></a>
 
