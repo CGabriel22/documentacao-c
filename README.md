@@ -11,8 +11,8 @@ Uma documentação prática e simples feita de universitários para universitár
 4. [Tipos de dados](#tipos-dados)
 5. [Especificadores mais comuns](#especificadores-comuns)
 6. [Float vs Double](#float-vs-double)
-7. [Limitando casas decimais em c](#limitando-decimais)
-8. [Vetores ou arrays](#vetores)
+7. [Limitando casas decimais em c](#limitando-decimais) - Em falta
+8. [Vetores ou arrays](#vetores) - Em falta
 9. [Vetor de caracteres](#vetor-de-caracteres)
 10. [Operadores](#operadores)
 11. [Mais operações com números](#mais-operacoes)
@@ -21,8 +21,9 @@ Uma documentação prática e simples feita de universitários para universitár
 14. [Trabalhando com entradas e saídas](#entradas-saidas)
 15. [Condicionais](#condicionais)
 16. [Laços de repetiçao](#loops)
-17. [Funções](#funcoes)
-18. [Struct](#struct)
+17. [Funções](#funcoes) - Em falta
+18. [Struct](#struct) - Em falta
+19. [Data e hora](#date-hora) - Em falta
 
 ---
 
